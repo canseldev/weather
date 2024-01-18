@@ -1,4 +1,211 @@
+html, body, h1, p {
+    margin:0;
+    padding: 0;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgb(11 19 30) ;
+    display: flex;
+}
+.left {
+    width: 80px;
+    height: 650px;
+    background-color:rgb(32 43 59) ;
+    color: rgb(196 202 211);
+    margin: 25px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+.left .up i {
+    font-size: 35px;
+    color: rgb(196 202 211);
+    padding: 60px 10px;
+}
+.left .down ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 40px;
+}
+.left .down ul li a {
+    text-decoration: none;
+    color: rgb(196 202 211);
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.left .down ul li a i {
+    font-size: 25px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin:25px ;
+    color: rgb(196 202 211);
+   
+}
+.main .head input {
+    background-color:rgb(32 43 59);
+    color:rgb(196 202 211) ;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 100%;
+    border: 1px solid rgb(32 43 59);
+    font-size: 18px;
+}
+.main .head input:focus {
+    outline: none;
+    color: rgb(196 202 211);
+}
+.main .scene {
+    display: flex;
+    gap: 200px;
+}
+.main .scene .left-photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+.main .scene .left-photo h1 {
+    font-size: 56px;
+    color: aliceblue;
+    margin-top: 40px;
+    margin-left: 30px;
+
+}
+.main .scene .left-photo p {
+    font-size: 14px;
+    margin-left: 20px;
+}
+.main .scene .left-photo h2 {
+    font-size: 45px;
+    color: aliceblue;
+    margin-top: 60px;
+}
+.main .scene .right-photo img {
+    width: 240px;
+    height: 240px;
+    margin: 30px 10px;
+}
+.main .container {
+    display: flex;
+}
+.main .container .card {
+    border: 1px solid rgb(32 43 59);
+    background-color: rgb(32 43 59);
+    margin: 15px 15px 0 10px;
+    padding: 10px 20px;
+    width: 310px;
+    border-radius: 20px;
+}
+.main .container .card h1 {
+    color: aliceblue;
+    padding: 5px 30px;
+}
+.right .top {
+    color: rgb(196 202 211);
+    width:400px;
+    height: 200px;
+    background-color: rgb(32 43 59);
+    margin-top: 90px;
+    margin-left: 40px;
+    padding: 15px;
+    border-radius: 20px;
+}
+.right .top .mother{
+    display: flex;
+    color: rgb(196 202 211);
+    align-items: center;
+    justify-content: center ;
+
+}
+.right .top .one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 20px;
+    border-right: 2px solid rgb(196 202 211);
+    gap: 10px;
+    margin-top: 20px;
+}
+.right .top .one img {
+    width: 36px;
+    height: 36px;
+}
+.right .top .two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 20px;
+    border-right: 2px solid rgb(196 202 211);
+    gap: 10px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.right .top .two img {
+    width: 36px;
+    height: 36px;
+}
+.right .top .three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    gap: 10px;
+    margin-top: 20px;
+}
+.right .top .three img {
+    width: 36px;
+    height: 36px;
+}
+.right .bottom  {
+    color: rgb(196 202 211);
+    width:400px;
+    background-color: rgb(32 43 59);
+    margin-top: 60px;
+    margin-left: 30px;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+.right .bottom .foot {
+    display: flex;
+    flex-direction: column;
+}
+.right .bottom .foot img {
+    width: 36px;
+    height: 36px; 
+}
+.right .bottom .foot .border {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    border-bottom: 1px solid rgb(196 202 211);
+    margin: 0 20px;
+    color: aliceblue;
+}
+.right .bottom .foot .border p {
+    color: rgb(196 202 211);
+}
+.right .bottom .foot .border span {
+    color: rgb(196 202 211);
+}
 
 
 /* rgb(11 19 30)
-rgb(32 43 59)*/
+rgb(32 43 59)
+img {
+  -webkit-filter: drop-shadow(5px 5px 5px #222 );
+  filter: drop-shadow(5px 5px 5px #222);
+}*/
